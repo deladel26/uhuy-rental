@@ -17,7 +17,7 @@ class SewaController extends Controller
     {
         $sewas = Sewa::with([
             'motor',
-            'pelanggan.dokumenPelanggan' // ✅ benar: lewat pelanggan
+            'pelanggan.dokumenPelanggan' 
         ])
             ->orderBy('tanggal_sewa', 'desc')
             ->get();
@@ -34,7 +34,7 @@ class SewaController extends Controller
     }
 
     /**
-     * METHOD BARU: Cek ketersediaan motor untuk periode tertentu
+     * METHOD: Cek ketersediaan motor untuk periode tertentu
      * Digunakan via AJAX dari form create
      */
     public function checkAvailability(Request $request)
