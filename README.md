@@ -1,7 +1,7 @@
 ## Tampilan Website
 
 ### Login
-![Login](https://imgur.com/a/h3Qw1C1)
+![Login](https://i.imgur.com/BPSlaZj.jpeg)
 
 ### Dashboard Admin
 ![Dashboard Admin](https://i.imgur.com/yyyyy.png)
